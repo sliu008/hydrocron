@@ -51,6 +51,8 @@ jobs:
           poetry-version: ${{ env.POETRY_VERSION }}
 
       - name: Build the book
+        env:
+            BASE_URL: /hydrocron
         run: |
           poetry install --only docs
           NPM_CONFIG_CACHE=/tmp/npm-cache poetry -P . -C docs run jupyter-book build --html
