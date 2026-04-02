@@ -3,6 +3,7 @@ project:
   title: Hydrocron
   copyright: '2024'
   github: sliu008/hydrocron
+  edit_url: null
   bibliography:
     - references.bib
   exports:
