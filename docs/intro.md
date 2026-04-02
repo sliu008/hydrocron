@@ -1,12 +1,24 @@
 # Hydrocron Documentation
 
-<div style="display: flex; flex-direction: row; gap: 10px; align-items: flex-start; justify-content: flex-start;">
-  <img src="_generated_version.svg" alt="Hydrocron version badge" style="margin: 0 !important; display: inline !important;">
-  <a href="https://doi.org/10.5281/zenodo.11176233" style="margin: 0 !important; display: inline !important;">
-    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11176233.svg" alt="DOI badge" style="margin: 0 !important; display: inline !important;">
+<style>
+  /* Target the images inside our specific container and force the margins to 0 */
+  .badge-row-container img {
+    margin: 0 !important;
+    display: block !important;
+  }
+  /* The framework added a <cite> wrapper, so we need to make sure that doesn't break the row */
+  .badge-row-container cite {
+    display: inline-flex !important;
+    font-style: normal !important;
+  }
+</style>
+
+<div class="badge-row-container" style="display: flex; flex-direction: row; gap: 10px; align-items: center; justify-content: flex-start; margin-bottom: 1rem;">
+  <img src="_generated_version.svg" alt="Hydrocron version badge">
+  <a href="https://doi.org/10.5281/zenodo.11176233">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11176233.svg" alt="DOI badge">
   </a>
 </div>
-
 
 Hydrocron is an API that repackages hydrology datasets from the Surface Water and Ocean Topography (SWOT) satellite into formats that make time-series analysis easier.
 
