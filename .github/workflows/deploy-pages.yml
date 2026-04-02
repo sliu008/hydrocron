@@ -45,6 +45,9 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Sync docs version
+        run: python scripts/update_docs_version.py
+
       - name: Install Poetry
         uses: abatilo/actions-poetry@v4
         with:
@@ -52,7 +55,7 @@ jobs:
 
       - name: Build the book
         env:
-            BASE_URL: /hydrocron
+            BASE_URL: /hydrocron/
         run: |
           poetry install --only docs
           NPM_CONFIG_CACHE=/tmp/npm-cache poetry -P . -C docs run jupyter-book build --html
