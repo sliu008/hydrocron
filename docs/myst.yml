@@ -1,8 +1,6 @@
 version: 1
 project:
   title: Hydrocron
-  authors:
-    - name: Physical Oceanography Distributed Active Archive Center (PO.DAAC)
   copyright: '2024'
   github: sliu008/hydrocron
   bibliography:
