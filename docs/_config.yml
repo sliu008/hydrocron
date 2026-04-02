@@ -30,6 +30,8 @@ repository:
 html:
   favicon: hydrocron_logo.png  
   baseurl: /hydrocron/
+  extra_css:
+    - _static/custom.css
   use_issues_button: true
   use_repository_button: true
   home_page_in_navbar: false  # Whether to include your home page in the left Navigation Bar

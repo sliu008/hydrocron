@@ -17,7 +17,7 @@ def read_version() -> str:
 
 
 def build_badge_svg(version: str) -> str:
-    label = "version"
+    label = "Version"
     label_width = 60
     value_width = max(60, 20 + len(version) * 7)
     total_width = label_width + value_width

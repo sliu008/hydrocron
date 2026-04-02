@@ -1,6 +1,6 @@
 # Hydrocron Documentation
 
-<div style="text-align: left;">
+<div class="badge-row">
   <img src="_generated_version.svg" alt="Hydrocron version badge">
   <a href="https://doi.org/10.5281/zenodo.11176233">
     <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11176233.svg" alt="DOI badge">
