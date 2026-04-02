@@ -16,7 +16,7 @@ def read_version() -> str:
 
 
 def write_generated(version: str) -> bool:
-    content = f"**Hydrocron version:** {version}\n"
+    content = f"**Version:** {version}\n"
     if GENERATED.exists():
         current = GENERATED.read_text(encoding="utf-8")
         if current == content:
