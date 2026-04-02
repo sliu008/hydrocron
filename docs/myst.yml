@@ -1,7 +1,7 @@
 version: 1
 project:
   title: Hydrocron
-  copyright: '2024'
+  copyright: "2024, By Physical Oceanography Distributed Active Archive Center (PO.DAAC)"
   github: sliu008/hydrocron
   edit_url: null
   bibliography:
@@ -45,3 +45,4 @@ site:
   template: book-theme
   parts:
       primary_sidebar_footer: empty-footer.md
+      footer: footer.md
