@@ -33,16 +33,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: getsentry/action-github-app-token@v4.0.0
-        name: podaac cicd token
-        id: podaac-cicd
-        with:
-          app_id: ${{ secrets.CICD_APP_ID }}
-          private_key: ${{ secrets.CICD_APP_PRIVATE_KEY }}
       - uses: actions/checkout@v6
         with:
           repository: ${{ github.repository }}
-          token: ${{ steps.podaac-cicd.outputs.token }}
       - uses: actions/setup-python@v6
         with:
           python-version: ${{ env.PYTHON_VERSION }}
