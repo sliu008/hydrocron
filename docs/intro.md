@@ -1,8 +1,11 @@
 # Hydrocron Documentation
 
-<a href="#"><img src="_generated_version.svg" alt="Hydrocron version badge" align="left" style="margin-right: 5px;"></a>
-<a href="https://doi.org/10.5281/zenodo.11176233"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11176233.svg" alt="DOI badge" align="left"></a>
-<br clear="left"/>
+<div style="display: flex; flex-direction: row; gap: 10px; align-items: flex-start; justify-content: flex-start;">
+  <img src="_generated_version.svg" alt="Hydrocron version badge" style="margin: 0 !important; display: inline !important;">
+  <a href="https://doi.org/10.5281/zenodo.11176233" style="margin: 0 !important; display: inline !important;">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11176233.svg" alt="DOI badge" style="margin: 0 !important; display: inline !important;">
+  </a>
+</div>
 
 
 Hydrocron is an API that repackages hydrology datasets from the Surface Water and Ocean Topography (SWOT) satellite into formats that make time-series analysis easier.
