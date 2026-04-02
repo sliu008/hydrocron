@@ -42,3 +42,5 @@ site:
     favicon: hydrocron_logo.png
     folders: true
   template: book-theme
+  parts:
+      primary_sidebar_footer: empty-footer.md
