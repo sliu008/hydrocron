@@ -4,7 +4,7 @@ project:
   authors:
     - name: Physical Oceanography Distributed Active Archive Center (PO.DAAC)
   copyright: '2024'
-  github: YOUR_GITHUB_USERNAME/hydrocron
+  github: sliu008/hydrocron
   bibliography:
     - references.bib
   exports:
@@ -36,7 +36,7 @@ project:
           title: SWOT River Database (SWORD) Explorer
         - url: https://podaac.jpl.nasa.gov
           title: PO.DAAC Website
-        - url: https://podaac.github.io/tutorials/
+        - url: https://sliu008.github.io/tutorials/
           title: PO.DAAC Cookbook
 site:
   base_url: /hydrocron/
